@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RPG-OOP-Game/Character.swift"
+            timestampString = "473302237.950523"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Character"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RPG_OOP_Game.Character.(_hp in _C26CD89BE02CC1D507CDBC5EFA5955AD).getter : Swift.Int"
+                  moduleName = "RPG-OOP-Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mragipaltuncu/Desktop/iOS/RPG-OOP-Game/RPG-OOP-Game/Character.swift"
+                  timestampString = "473303689.464353"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RPG_OOP_Game.Character.(_hp in _C26CD89BE02CC1D507CDBC5EFA5955AD).setter : Swift.Int"
+                  moduleName = "RPG-OOP-Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mragipaltuncu/Desktop/iOS/RPG-OOP-Game/RPG-OOP-Game/Character.swift"
+                  timestampString = "473303689.46463"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RPG_OOP_Game.Character.(_hp in _C26CD89BE02CC1D507CDBC5EFA5955AD).materializeForSet : Swift.Int"
+                  moduleName = "RPG-OOP-Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mragipaltuncu/Desktop/iOS/RPG-OOP-Game/RPG-OOP-Game/Character.swift"
+                  timestampString = "473303689.464898"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
