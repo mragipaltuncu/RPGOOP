@@ -13,6 +13,9 @@
 		0E7935D61C3604470074177D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E7935D51C3604470074177D /* Assets.xcassets */; };
 		0E7935D91C3604470074177D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7935D71C3604470074177D /* LaunchScreen.storyboard */; };
 		0E7935E11C36045F0074177D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7935E01C36045F0074177D /* Character.swift */; };
+		0ED54F0E1C366848001D1C23 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED54F0D1C366848001D1C23 /* Soldier.swift */; };
+		0ED54F101C367116001D1C23 /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED54F0F1C367116001D1C23 /* Orc.swift */; };
+		0ED54F121C36718F001D1C23 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED54F111C36718F001D1C23 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0E7935D81C3604470074177D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E7935DA1C3604470074177D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E7935E01C36045F0074177D /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		0ED54F0D1C366848001D1C23 /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+		0ED54F0F1C367116001D1C23 /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
+		0ED54F111C36718F001D1C23 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				0E7935D71C3604470074177D /* LaunchScreen.storyboard */,
 				0E7935DA1C3604470074177D /* Info.plist */,
 				0E7935E01C36045F0074177D /* Character.swift */,
+				0ED54F0D1C366848001D1C23 /* Soldier.swift */,
+				0ED54F0F1C367116001D1C23 /* Orc.swift */,
+				0ED54F111C36718F001D1C23 /* Game.swift */,
 			);
 			path = "RPG-OOP-Game";
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E7935E11C36045F0074177D /* Character.swift in Sources */,
+				0ED54F121C36718F001D1C23 /* Game.swift in Sources */,
 				0E7935D11C3604470074177D /* ViewController.swift in Sources */,
+				0ED54F0E1C366848001D1C23 /* Soldier.swift in Sources */,
+				0ED54F101C367116001D1C23 /* Orc.swift in Sources */,
 				0E7935CF1C3604470074177D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +301,7 @@
 				0E7935DF1C3604470074177D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

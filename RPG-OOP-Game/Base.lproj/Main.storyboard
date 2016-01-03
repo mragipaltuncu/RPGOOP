@@ -69,6 +69,9 @@
                                     <constraint firstAttribute="height" constant="67" id="w8N-Gl-Dg5"/>
                                 </constraints>
                                 <state key="normal" image="player1attackbtn"/>
+                                <connections>
+                                    <action selector="orcAttackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pUX-M4-mnQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XcK-1d-jcW">
                                 <rect key="frame" x="393" y="20" width="187" height="67"/>
@@ -78,6 +81,9 @@
                                     <constraint firstAttribute="height" constant="67" id="y96-QK-Vuk"/>
                                 </constraints>
                                 <state key="normal" image="player2attackbtn"/>
+                                <connections>
+                                    <action selector="soldierAttackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pR4-sE-eWc"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ATTACK !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpy-Mv-jzf">
                                 <rect key="frame" x="65" y="43" width="98" height="21"/>
@@ -93,6 +99,20 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="100 HP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V13-Vs-Qs1">
+                                <rect key="frame" x="112" y="337" width="64" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="100 HP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddd-Lm-8kx">
+                                <rect key="frame" x="410" y="336" width="64" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -102,6 +122,7 @@
                             <constraint firstAttribute="bottom" secondItem="WDT-sa-xL4" secondAttribute="bottom" id="5qi-sd-OfF"/>
                             <constraint firstItem="1PG-4R-daH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BAH-ZL-8yV"/>
                             <constraint firstItem="xpy-Mv-jzf" firstAttribute="centerX" secondItem="g48-Bs-EVM" secondAttribute="centerX" id="EPk-K9-0Bs"/>
+                            <constraint firstItem="WDT-sa-xL4" firstAttribute="top" secondItem="V13-Vs-Qs1" secondAttribute="bottom" constant="171" id="FNG-n3-DEU"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1PG-4R-daH" secondAttribute="bottom" id="GtV-Vt-NAW"/>
                             <constraint firstItem="g48-Bs-EVM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="NT2-Ux-J1U"/>
                             <constraint firstItem="A9T-GA-PyT" firstAttribute="centerX" secondItem="1PG-4R-daH" secondAttribute="centerX" id="NlJ-c8-A4x"/>
@@ -110,18 +131,26 @@
                             <constraint firstItem="iUw-cM-ao6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="W0W-ta-4NX"/>
                             <constraint firstItem="iUw-cM-ao6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Zya-yV-lvM"/>
                             <constraint firstItem="xpy-Mv-jzf" firstAttribute="centerY" secondItem="g48-Bs-EVM" secondAttribute="centerY" id="cdR-9a-9HW"/>
+                            <constraint firstItem="WDT-sa-xL4" firstAttribute="top" secondItem="Ddd-Lm-8kx" secondAttribute="bottom" constant="172" id="dyS-rC-OK2"/>
                             <constraint firstItem="g48-Bs-EVM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="e1B-3k-XPf"/>
                             <constraint firstItem="krm-iP-JLf" firstAttribute="centerX" secondItem="XcK-1d-jcW" secondAttribute="centerX" id="efa-qS-3IY"/>
                             <constraint firstItem="ONf-fj-Q0o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="gjs-U7-TF5"/>
                             <constraint firstItem="XcK-1d-jcW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hX0-YP-f3f"/>
                             <constraint firstAttribute="trailing" secondItem="WDT-sa-xL4" secondAttribute="trailing" id="lZ3-il-JCR"/>
+                            <constraint firstItem="V13-Vs-Qs1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="92" id="n5L-H6-Krw"/>
                             <constraint firstItem="A9T-GA-PyT" firstAttribute="centerY" secondItem="1PG-4R-daH" secondAttribute="centerY" id="nFr-hQ-clT"/>
                             <constraint firstItem="2aa-W5-XU6" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="r0S-D9-Udd"/>
                             <constraint firstItem="WDT-sa-xL4" firstAttribute="top" secondItem="ONf-fj-Q0o" secondAttribute="bottom" id="rCv-GX-4D6"/>
                             <constraint firstItem="krm-iP-JLf" firstAttribute="centerY" secondItem="XcK-1d-jcW" secondAttribute="centerY" id="u0l-Rc-ZC7"/>
                             <constraint firstItem="XcK-1d-jcW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="w6U-7n-wv4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ddd-Lm-8kx" secondAttribute="trailing" constant="106" id="z64-th-Bda"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="A9T-GA-PyT" id="jgc-XB-6IU"/>
+                        <outlet property="orcHpLabel" destination="V13-Vs-Qs1" id="vg0-vO-5Nd"/>
+                        <outlet property="soldierHpLabel" destination="Ddd-Lm-8kx" id="iSQ-ys-Ftr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
